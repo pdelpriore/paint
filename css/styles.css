@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    border: 2px solid black;
+    z-index: 1;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#red {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 40px;
+    height: 40px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#red:hover {
+    cursor: pointer;
+}
+
+#black {
+    position: absolute;
+    top: 27%;
+    right: 10%;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+#black:hover {
+    cursor: pointer;
+}
+
+#gomme {
+    position: absolute;
+    top: 34%;
+    right: 10%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+#gomme:hover {
+    cursor: pointer;
+}
+
+#pinceau {
+    position: absolute;
+    height: 20px;
+    width: 90px;
+    top: 43.4%;
+    right: 10%;
+}
+
+#pinceau:hover {
+    cursor: pointer;
+}
+
+#checkbox {
+    position: absolute;
+    top: 47.5%;
+    right: 12.5%;
+}
+
+#checkbox:hover {
+    cursor: pointer;
+}
+
+.pinceau {
+    position: absolute;
+    font-family: 'IBM Plex Serif', serif;
+    top: 40%;
+    right: 10%;
+}
+
+.grille {
+    position: absolute;
+    font-family: 'IBM Plex Serif', serif;
+    top: 47%;
+    right: 10%;
+}
+
+#overlay {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.1;
+    display: none;
+}
+
+#reset {
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    height: 30px;
+    width: 120px;
+    padding: 2px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 15px;
+    border: 2px solid black;
+    background-color: #902121;
+    color: white;
+    border-radius: 10%;
+}
+
+#reset:hover {
+    cursor: pointer;
+}
+
+#r {
+    position: absolute;
+    right: 10%;
+    top: 75%;
+    width: 40px;
+    font-family: 'IBM Plex Serif', serif;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+.r {
+    position: absolute;
+    right: 13.5%;
+    top: 75.4%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#g {
+    position: absolute;
+    right: 10%;
+    top: 78%;
+    width: 40px;
+    font-family: 'IBM Plex Serif', serif;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+.g {
+    position: absolute;
+    right: 13.5%;
+    top: 78.4%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#b {
+    position: absolute;
+    right: 10%;
+    top: 81%;
+    width: 40px;
+    font-family: 'IBM Plex Serif', serif;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+.b {
+    position: absolute;
+    right: 13.5%;
+    top: 81.4%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#rgb {
+    position: absolute;
+    right: 10%;
+    top: 65%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    box-shadow: 0 0 1px 1px;
+    cursor: pointer;
+}
+
+#symetrieX {
+    position: absolute;
+    top: 53%;
+    right: 14.5%;
+}
+
+.symetrieX {
+    position: absolute;
+    top: 52.5%;
+    right: 7.5%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#symetrieY {
+    position: absolute;
+    top: 56%;
+    right: 14.5%;
+}
+
+.symetrieY {
+    position: absolute;
+    top: 55.5%;
+    right: 7.5%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#doSymX {
+    position: absolute;
+    top: 55.5%;
+    left: 9%;
+}
+
+.doSymX {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#doSymY {
+    position: absolute;
+    top: 58%;
+    left: 9%;
+}
+
+.doSymY {
+    position: absolute;
+    top: 57.6%;
+    left: 10%;
+    font-family: 'IBM Plex Serif', serif;
+}
+

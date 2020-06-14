@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Welcome to my canvas world</title>
+</head>
+
+<body>
+
+    <label class="pinceau">Taille du pinceau</label><input type="range" id="pinceau" value="2" min="2" max="8" step="1">
+    <label for="checkbox" class="grille">Grille</label><input type="checkbox" id="checkbox">
+    <label for="doSymX" class="doSymX">Do SymétrieX</label><input type="checkbox" id="doSymX">
+    <label for="doSymY" class="doSymY">Do SymétrieY</label><input type="checkbox" id="doSymY">
+    <div id="gomme"></div>
+    <div id="red"></div>
+    <div id="black"></div>
+    <div id="rgb"></div>
+    <label for="symetrieX" class="symetrieX">Draw SymétrieX</label><input type="checkbox" id="symetrieX">
+    <label for="symetrieY" class="symetrieY">Draw SymétrieY</label><input type="checkbox" id="symetrieY">
+    <button id="reset">Reset Canvas</button>
+    <label for="r" class="r">R</label><input type="number" id="r" min="0" max="255" step="1" placeholder="0">
+    <label for="g" class="g">G</label><input type="number" id="g" min="0" max="255" step="1" placeholder="0">
+    <label for="b" class="b">B</label><input type="number" id="b" min="0" max="255" step="1" placeholder="0">
+    <canvas id="canvas" width="1200" height="700"></canvas>
+    <canvas id="overlay" width="1200" height="700"></canvas>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
